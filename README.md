@@ -33,4 +33,9 @@ python manage.py runserver
 ```
 
 # Примеры
+1. Получение JWT-токена
+```
+http://127.0.0.1:8000/api/v1/jwt/create/
+```
+
 
