@@ -33,9 +33,26 @@ python manage.py runserver
 ```
 
 # Примеры
-1. Получение JWT-токена
+1. Получение JWT-токена (POST)
 ```
 http://127.0.0.1:8000/api/v1/jwt/create/
 ```
 ![number1.png](number1.png)
 
+2. Создание публикации (POST)
+```
+http://127.0.0.1:8000/api/v1/posts/
+```
+![number2.png](number2.png)
+
+3. Получение публикаций (GET)
+```
+http://127.0.0.1:8000/api/v1/posts/
+```
+![number3.png](number3.png)
+
+4. Добавление комментария (POST)
+```
+http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+```
+![number4.png](number4.png)
