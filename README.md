@@ -11,7 +11,7 @@ git clone <git@github.com:Ant0shich/api_final_yatube.git>
 ```
 python -m venv venv
 ```
-source env/bin/activate
+source venv/bin/activate
 ```
 3. Установить зависимости из файла requirements.txt:
 ```
