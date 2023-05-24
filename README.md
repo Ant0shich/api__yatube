@@ -1,4 +1,4 @@
-# api_final_yatube
+#                                                                      api_final_yatube
 # Описание
 
 
@@ -31,3 +31,6 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+# Примеры
+
