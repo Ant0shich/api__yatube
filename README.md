@@ -37,5 +37,5 @@ python manage.py runserver
 ```
 http://127.0.0.1:8000/api/v1/jwt/create/
 ```
-![1 пример.png](1 пример.png)
+![number1.png](number1.png)
 
