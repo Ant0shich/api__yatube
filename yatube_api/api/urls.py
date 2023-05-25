@@ -3,6 +3,8 @@ from rest_framework.routers import DefaultRouter
 from api.views import PostViewSet, GroupViewSet, CommentViewSet, FollowViewSet
 from rest_framework.authtoken import views
 
+app_name = 'api'
+
 router = DefaultRouter()
 router.register('posts', PostViewSet, basename='posts')
 router.register('groups', GroupViewSet, basename='groups')
