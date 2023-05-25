@@ -52,14 +52,3 @@ class Follow(models.Model):
         on_delete=models.CASCADE,
         related_name='following'
     )
-
-    class Meta:
-        constraints = [
-            models.UniqueConstraint(
-                fields=['user', 'following'], name='unique_following'
-            ),
-            models.CheckConstraint(
-                check=~models.Q(following=models.F('user')),
-                name='self_following_disallowed'
-            )
-        ]
